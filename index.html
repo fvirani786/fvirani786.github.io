@@ -5,22 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <!-- box icons -->
-    
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <!-- custom css -->
-    
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header design -->
-    
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <!-- total of 5 a tags -->
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
     <!-- home section design -->
-    
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>James Bond</h1>
+        <h3>And I'm a <span>secret agent</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni beatae
+          asperiores, ea expedita necessitatibus nulla voluptatibus blanditiis.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class='bx bxl-facebook' ></i></a>
+          <a href="#"><i class='bx bxl-twitter' ></i></a>
+          <a href="#"><i class='bx bxl-instagram' ></i></a>
+          <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="./images/personal-portfolio-pic.png" alt="">
+      </div>
+    </section>
+
     <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h3> This is me</h3>
+        <h1>this is who I am</h1>
+        <h3>something goes here </h3>
+
+
+      </div>
+
+
+    </section>
 
     <!-- services section design -->
 
     <!-- portfolio section design -->
 
     <!-- contact section design -->
+    <section class="contact" id="contact">
+      <div class="contact-content">
+        <div class="form-container">
+          <div class="form-card">
+            <span class="close-icon"></span>
+            <h2>Contact Me</h2>
+            <form action="" method="post">
+
+           </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- footer design -->
 
@@ -31,6 +93,6 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <!-- custom js -->
-    
+    <script src="./js/app.js"></script>
   </body>
 </html>
