@@ -15,4 +15,5 @@ const homeSection = document.createElement('section');
 homeSection.classList.add('home');
 homeSection.id = 'home';
 homeSection.innerHTML = 
-document.body.appendChild(homeSection);
+document.body.appendChild(homeSection); 
+
