@@ -1,4 +1,8 @@
 /*==================== toggle icon navbar ====================*/
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {}
 /*==================== scroll sections active link ====================*/
 
 /*==================== sticky navbar ====================*/
@@ -7,13 +11,14 @@
 /*==================== scroll reveal ====================*/
 /*==================== typed js ====================*/
 
-const header = document.createElement('header');
-header.innerHTML = '<h1>This is the Header</h1>';
-document.body.appendChild(header);
+// const header = document.createElement('header');
+// header.innerHTML = '<h1>This is the Header</h1>';
+// document.body.appendChild(header);
 
-const homeSection = document.createElement('section');
-homeSection.classList.add('home');
-homeSection.id = 'home';
-homeSection.innerHTML = 
-document.body.appendChild(homeSection); 
+
+// const homeSection = document.createElement('section');
+// homeSection.classList.add('home');
+// homeSection.id = 'home';
+// homeSection.innerHTML = 
+// document.body.appendChild(homeSection); 
 
